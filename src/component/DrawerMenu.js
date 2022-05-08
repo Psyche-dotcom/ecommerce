@@ -8,6 +8,7 @@ const DrawerMenu = ({ draw, setDraw }) => {
       <SwipeableDrawer anchor={"left"} open={draw}>
         <Box
           p={3}
+          pr={8}
           width={"50%"}
           sx={{
             // marginTop: "20px",

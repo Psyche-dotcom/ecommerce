@@ -13,7 +13,6 @@ li {
 /*Primary color*/
 body {
   background-color: white;
-  height: 100vh;
 }
 
 main {
@@ -120,7 +119,7 @@ nav ul {
     flex-direction: row;
     align-items: center;
     gap: 1em;
-    padding-block: 2em;
+    padding-block: 4em;
   }
 }
 @media (min-width: 900px) {

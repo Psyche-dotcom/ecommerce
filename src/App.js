@@ -52,7 +52,9 @@ const App = () => {
           {cart && <Cart bgimage={bgimage} count={count} />}
         </div>
       </header>
-      <div>
+      <div className="Main-hero">
+        <Model open={open} setOpen={(word) => setOpen(word)} />
+        <DrawerMenu draw={draw} setDraw={(word) => setDraw(word)} />
         <section className="flexHero">
           <PhotoGallery
             bgimage={bgimage}
@@ -66,8 +68,6 @@ const App = () => {
           />
         </section>
       </div>
-      <Model open={open} setOpen={(word) => setOpen(word)} />
-      <DrawerMenu draw={draw} setDraw={(word) => setDraw(word)} />
     </main>
   );
 };

@@ -2,7 +2,6 @@
 @import "./variable";
 body {
   background-color: white;
-  height: 100vh;
 }
 main {
   width: min(90%, 1000px);
@@ -97,7 +96,7 @@ nav {
     flex-direction: row;
     align-items: center;
     gap: 1em;
-    padding-block: 2em;
+    padding-block: 4em;
   }
   @include large {
     gap: 2em;
